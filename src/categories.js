@@ -4,16 +4,21 @@ import mac from "./assets/imac.jpg";
 
 const categories = [
   {
-    name: "iWatch",
+    name: "Tata Motors",
     img: `${watch}`,
   },
   {
-    name: "iPhones",
+    name: "Ashok Leyland",
     img: `${phone}`,
   },
 
   {
-    name: "iMac",
+    name: "Mahindra",
+    img: `${mac}`,
+  },
+
+  {
+    name: "Maruti Suzuki",
     img: `${mac}`,
   },
 ];

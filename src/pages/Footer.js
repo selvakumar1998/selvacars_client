@@ -6,7 +6,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
-import logo from "../assets/Apple-logo.png";
+import logo from "../assets/logo.png";
 
 function Footer() {
   return (
@@ -44,7 +44,7 @@ function Footer() {
               <h6 className="text-uppercase fw-bold mb-4">
                 <img src={logo} alt="" width={"30px"} height={"30px"} />
                 <MDBIcon className="me-3" />
-                iPlanet
+                Selva Cars
               </h6>
               <p>
                 We provide you with millions of choices, decide for yourself.Buy
@@ -98,10 +98,10 @@ function Footer() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                harshankrishdev003@gmail.com
+                kumarselvam1998@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> +91 80566 19487
+                <MDBIcon icon="phone" className="me-3" /> +91 80983 64254
               </p>
             </MDBCol>
           </MDBRow>

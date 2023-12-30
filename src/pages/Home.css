@@ -1,5 +1,6 @@
 .category-tile {
-  height: 250px;
+  height: 150px;
+
   background-size: cover;
   background-position: center;
   padding-left: 20px !important;

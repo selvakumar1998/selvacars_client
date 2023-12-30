@@ -11,6 +11,7 @@ import ProductPreview from "../components/ProductPreview";
 import img1 from "../assets/iPhone-2.jpg";
 import img2 from "../assets/watch.jpg";
 import Footer from "./Footer";
+import Testimonial from "../components/Testimonial";
 
 function Home() {
   const dispatch = useDispatch();
@@ -29,7 +30,7 @@ function Home() {
         height={"100%"}
       />
       <div className="featured-products-container container mt-4">
-        <h2>Latest products</h2>
+        <h2>Latest Vehicles</h2>
         <div className="d-flex justify-content-center flex-wrap">
           {lastProducts.map((product) => (
             <ProductPreview {...product} />
@@ -79,6 +80,7 @@ function Home() {
           ))}
         </Row>
       </div>
+      {/* <Testimonial /> */}
       <Footer />
     </div>
   );
