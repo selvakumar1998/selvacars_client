@@ -23,7 +23,7 @@ function App() {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
   useEffect(() => {
-    const socket = io("ws://https://frantic-train-lion.cyclic.app");
+    const socket = io("ws://https://kind-tan-rattlesnake-kilt.cyclic.app");
     socket.off("notification").on("notification", (msgObj, user_id) => {
       if (user_id === user._id) {
         dispatch(addNotification(msgObj));
