@@ -5,11 +5,11 @@ import suzuki from "./assets/suz.jpg";
 
 const categories = [
   {
-    name: "Tata Motors",
+    name: "TataMotors",
     img: `${tata}`,
   },
   {
-    name: "Ashok Leyland",
+    name: "AshokLeyland",
     img: `${ashok}`,
   },
 
@@ -19,7 +19,7 @@ const categories = [
   },
 
   {
-    name: "Maruti Suzuki",
+    name: "MarutiSuzuki",
     img: `${suzuki}`,
   },
 ];

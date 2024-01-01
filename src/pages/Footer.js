@@ -60,12 +60,12 @@ function Footer() {
               <h6 className="text-uppercase fw-bold mb-4">Vehicles</h6>
               <p>
                 <a href="/category/tatamotors" className="text-reset">
-                  Tata Motors
+                  TataMotors
                 </a>
               </p>
               <p>
                 <a href="/category/ashokleyland" className="text-reset">
-                  Ashok Leyland
+                  AshokLeyland
                 </a>
               </p>
               <p>
@@ -75,7 +75,7 @@ function Footer() {
               </p>
               <p>
                 <a href="/category/marutisuzuki" className="text-reset">
-                  Maruti Suzuki
+                  MarutiSuzuki
                 </a>
               </p>
             </MDBCol>
