@@ -29,6 +29,27 @@ function Home() {
         width={"100%"}
         height={"100%"}
       />
+
+      <div className="featured-products-container container mt-4">
+        <h2>Latest Vehicles</h2>
+        <div className="d-flex justify-content-center flex-wrap">
+          {lastProducts.map((product) => (
+            <ProductPreview {...product} />
+          ))}
+        </div>
+        <div>
+          <Link
+            to="/category/all"
+            style={{
+              textAlign: "right",
+              display: "block",
+              textDecoration: "none",
+            }}
+          >
+            See more {">>"}
+          </Link>
+        </div>
+      </div>
       <div className="recent-products-container container mt-4">
         <h2>Categories</h2>
         <Row>
@@ -50,26 +71,6 @@ function Home() {
             </LinkContainer>
           ))}
         </Row>
-      </div>
-      <div className="featured-products-container container mt-4">
-        <h2>Latest Vehicles</h2>
-        <div className="d-flex justify-content-center flex-wrap">
-          {lastProducts.map((product) => (
-            <ProductPreview {...product} />
-          ))}
-        </div>
-        <div>
-          <Link
-            to="/category/all"
-            style={{
-              textAlign: "right",
-              display: "block",
-              textDecoration: "none",
-            }}
-          >
-            See more {">>"}
-          </Link>
-        </div>
       </div>
       {/* <div className="sale__banner--container mt-4">
         <a href="https://www.youtube.com/@selvaCars">
