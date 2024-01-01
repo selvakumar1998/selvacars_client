@@ -57,7 +57,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Vehicles</h6>
               <p>
                 <a href="/category/tatamotors" className="text-reset">
                   Tata Motors
