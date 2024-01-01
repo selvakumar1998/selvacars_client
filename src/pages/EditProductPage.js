@@ -130,9 +130,10 @@ function EditProductPage() {
                   -- Select One --
                 </option>
                 {/* <option value="technology">technology</option> */}
-                <option value="iwatch">iWatch</option>
-                <option value="iphones">iPhones</option>
-                <option value="imac">iMac</option>
+                <option value="tatmotors">Tata Motors</option>
+                <option value="ashokleyland">Ashok Leyland</option>
+                <option value="mahindra">Mahindra</option>
+                <option value="marutisuzuki">Maruti Suzuki</option>
               </Form.Select>
             </Form.Group>
 

@@ -17,22 +17,26 @@ function Footer() {
         </div>
 
         <div>
-          <a href="/" className="me-4 text-reset">
+          <a
+            href="https://www.instagram.com/selva_cars_madurai?igsh=ZGJxOXczZHZhMDR2"
+            className="me-4 text-reset"
+            target="blank"
+          >
             <MDBIcon fab icon="instagram" />
           </a>
           <a
-            href="https://www.linkedin.com/in/harshankrishna-k-v/"
+            href="https://www.youtube.com/@selvaCars"
             className="me-4 text-reset"
             target="blank"
           >
-            <MDBIcon fab icon="linkedin" />
+            <MDBIcon fab icon="youtube" />
           </a>
           <a
-            href="https://github.com/Harshankrishna/ecom-iplanet"
+            href="https://wa.me/c/918098364254/"
             className="me-4 text-reset"
             target="blank"
           >
-            <MDBIcon fab icon="github" />
+            <MDBIcon fab icon="whatsapp" />
           </a>
         </div>
       </section>
@@ -55,18 +59,23 @@ function Footer() {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Products</h6>
               <p>
-                <a href="/category/iwatch" className="text-reset">
-                  iWatch
+                <a href="/category/tatamotors" className="text-reset">
+                  Tata Motors
                 </a>
               </p>
               <p>
-                <a href="/category/iphones" className="text-reset">
-                  iPhones
+                <a href="/category/ashokleyland" className="text-reset">
+                  Ashok Leyland
                 </a>
               </p>
               <p>
-                <a href="/category/imac" className="text-reset">
-                  iMac
+                <a href="/category/mahindra" className="text-reset">
+                  Mahindra
+                </a>
+              </p>
+              <p>
+                <a href="/category/marutisuzuki" className="text-reset">
+                  Maruti Suzuki
                 </a>
               </p>
             </MDBCol>
@@ -115,9 +124,9 @@ function Footer() {
         © 2023 Copyright:
         <a
           className="text-reset fw-bold"
-          href="https://harshankrishna.netlify.app/"
+          href="https://www.youtube.com/@selvaCars"
         >
-          Harshankrishna
+          SelvaCars
         </a>
       </div>
     </MDBFooter>

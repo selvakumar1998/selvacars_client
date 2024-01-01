@@ -116,9 +116,10 @@ function NewProduct() {
                 <option disabled selected>
                   -- Select One --
                 </option>
-                <option value="iwatch">iWatch</option>
-                <option value="iphones">iPhones</option>
-                <option value="imac">iMac</option>
+                <option value="tatamotors">Tata Motors</option>
+                <option value="ashokleyland">Ashok Leyland</option>
+                <option value="mahindra">Mahindra</option>
+                <option value="marutisuzuki">Maruti Suzuki</option>
               </Form.Select>
             </Form.Group>
 

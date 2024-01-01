@@ -15,7 +15,9 @@
   margin-top: 30px;
   margin-bottom: 50px;
 }
-
+.iframe {
+  margin: 2rem;
+}
 .card {
   border: none !important;
   /* width: 15rem !important; */
